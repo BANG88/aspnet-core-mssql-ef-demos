@@ -4,7 +4,7 @@
 
 ## 准备工作
 
-- 一个能够连接的`mssql`服务（我本机用的是`docker Microsoft/mssql-server-linux`的image）为了方便docker的端口都设置成1443.
+- 一个能够连接的`mssql`服务（我本机用的是`docker Microsoft/mssql-server-linux`的image）为了方便docker的端口都设置成1433.
 - 一个数据库 这里用的是`NorthWind` sql 在assets目录可以找到
 - `ASP.NET CORE` 需要安装
 - 可选（如果你用vscode开发，可以安装https://marketplace.visualstudio.com/items?itemName=ms-mssql.mssql
