@@ -150,7 +150,7 @@ dotnet ef dbcontext scaffold "Server=localhost;Database=NorthWind;User Id=sa;Pas
 ### `dotnet`
 
   ```sh
-  $ dotnet.exe --help
+  $ dotnet --help
   
     .NET Command Line Tools (1.0.3)
     Usage: dotnet [host-options] [command] [arguments] [common-options]
@@ -238,7 +238,7 @@ Use "dotnet ef [command] --help" for more information about a command.
 
 ### dotnet watch
 
-> 开发的时候经常需要重启服务器很不方便，使用此工具可以监控文件修改自动重启服务。
+> 开发的时候经常需要重启服务很不方便，使用此工具可以监控文件修改自动重启服务。
 
 ```xml
  <ItemGroup>  
