@@ -3,14 +3,27 @@
     "command": "dotnet",
     "isShellCommand": true,
     "args": [],
+    "options": {
+        "env": {
+            "ASPNETCORE_ENVIRONMENT": "Development"
+        }
+    },
     "tasks": [
         {
             "taskName": "build",
             "args": [
                 "${workspaceRoot}/aspnet_core_mssql_ef_demos.csproj"
             ],
-            "isBuildCommand": true,
+            "isBuildCommand": false,
             "problemMatcher": "$msCompile"
+        },
+        {
+            "taskName": "watch",
+            "args": [
+                "run"
+            ],
+            "isBackground": true,
+            "isBuildCommand": true
         }
     ]
 }
