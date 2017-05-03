@@ -1,6 +1,7 @@
 # aspnet-core-mssql-ef-demos
 
-> 这个示例的主要目的是为了了解 `Linq to EF` 生成的sql语句是不是经过优化的，以及一些开发常用的配置项。因为我相信Linq to EF，只是一个ORM，数据库搞挂了往往是代码本身的问题，开发人员的问题，就算你用`sql`一样会有问题。
+> 这个示例的主要目的是为了了解 `Linq to EF` 生成的sql语句是不是经过优化的，以及一些开发常用的配置项。do what you want.
+
 <!-- TOC -->
 
 - [aspnet-core-mssql-ef-demos](#aspnet-core-mssql-ef-demos)
